@@ -1,0 +1,5 @@
+gcc -S -masm=intel $CFILE OR
+
+gcc -S -masm= intel $CFILE OR
+
+gcc -S -masm=intel $CFILE -o ${CFILE%.*}.s
