@@ -18,8 +18,8 @@ int main(void)
 	for (low = 'e'; low <= 'z'; low++)
 	{
 	if (low != e && low != q)
-	putcher(low);
+	putchar(low);
 	}
-	putcher('\n');
+	putchar('\n');
 	return (0);
 }
