@@ -12,8 +12,8 @@ int main(void)
 {
 	int num;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	for (i = 48; i < 58; i++)
+		putchar(i);
 
 	putchar('\n');
 
