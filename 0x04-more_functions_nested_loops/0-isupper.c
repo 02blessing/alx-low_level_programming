@@ -4,8 +4,13 @@
 * @c: Variable text
 * Return: Always 0.
 */
-int _isupper(int c)
-{
 
-if (c >= 'A' && c <= 'Z')
+int _supper(int x)
+
+{
+	if(x >= 65 && x<= 90)
+	{
+	return(1);
+	}
+	return(0);
 }
